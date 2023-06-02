@@ -5,7 +5,7 @@ user_prompt = input("Hey !!!, what is your promt? ")
 # Setting up the authentiation with openai - set your api-key here
 openai.api_key = ""
 
-
+# taken from the open AI playground
 response = openai.Completion.create(
     model="text-davinci-003",
     prompt=user_prompt,
